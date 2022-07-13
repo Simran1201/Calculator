@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.head{
+    padding: 30px;
+    text-align: center;
+    background-color: crimson;
+    color:bisque;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.values{
+    padding: 50px 0px;
+    text-align: center;
+    color:brown;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.num1{
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.num2{
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.num1:hover{
+    background-color: rgba(137, 43, 226, 0.138);
+}
+.num2:hover{
+    background-color: rgba(137, 43, 226, 0.138);
+}
+.buttons{
+    padding: 30px;
+    text-align: center;
+}
+.buttons button{
+    color: darkblue;
+    font-size: xx-large;
+    padding: 20px;
+    margin: 0px 15px;
+    cursor: pointer;
+    background-color: rgb(84, 178, 178);
+    font-weight: bolder;
+    border-radius: 8px;
+}
+.buttons button:hover{
+    background-color: darkblue;
+    color: aqua;
+}
+.answer{
+    padding: 20px;
+    text-align: center;
+}
+.val{
+    font-size: 40px;
+    color: darkred;
+    padding-right: 50px;
+}
+.ans{
+    font-size: xx-large;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 30px;
+    color:rgb(255, 0, 51);
+    font-weight: bolder;
+}
+@media screen and (max-width :1176px) {
+    .values{
+        padding: 50px 0px;
+        font-size: large;
+        font-weight: bold;
+    }    
+    .num1 {
+        margin: 20px 0px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .num2 {
+        margin: 20px 0px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .buttons button{
+        font-size: x-large;
+        padding: 20px;
+        margin: 0px 15px;
+        font-weight: bolder;
+    }
+}
+@media screen and (max-width :867px) {
+    .values{
+        font-size: x-large;
+        text-align: left;
+        font-weight: bolder;
+    }    
+    .sec::before{
+        content: "\a";
+        white-space: pre;
+    }
+    .num1{
+        font-size: 15px;
+        margin-left: 47px;
+        font-weight: bold;
+    }
+    .num2{
+        margin: 25px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .buttons button{
+        font-size: large;
+        padding: 15px;
+        margin: 0px 15px;
+        font-weight: bolder;
+    }
+}
+@media screen and (max-width :685px) {
+    .values{
+        font-size: x-large;
+        text-align: left;
+        font-weight: bolder;
+    }  
+    .sec::before{
+        content: "\a";
+        white-space: pre;
+    }
+    .num1{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .num2{
+        margin: 20px 20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .buttons button{
+        font-size: x-large;
+        padding: 15px;
+        margin: 20px 13px;
+        font-weight: bolder;
+    }
+}
